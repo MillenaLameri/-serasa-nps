@@ -1,11 +1,16 @@
+import React, { useState } from "react";
 import { Button, Card, CardContent, Rating, TextField } from "@mui/material";
 import Box from "@mui/material/Box";
 import { Colors } from "../../../util/colors";
 import Text from "../../../util/customText/Text";
 import { BoxCentralizado } from "../../../util/BoxCentralizado";
 import { Banner } from "./Logo";
+import { Loading } from "../../../util/Loading";
 
 export const CardNps = () => {
+  const [loading, setLoading] = useState(false);
+
+  if (loading) return <Loading />;
   return (
     <Box display="flex" p={3} sx={{ margin: "auto", maxWidth: "100%" }}>
       <Card>
@@ -13,17 +18,24 @@ export const CardNps = () => {
           sx={{
             display: "flex",
             flexDirection: "column",
-            p: 2,
+            p: 6,
           }}
         >
           <BoxCentralizado>
             <Box alignItems="center" textAlign="center">
               <Banner />
-              <Text variant="headingSm" color="magenta">
-                Conte o quanto você está satisfeito com nossos serviços
-              </Text>
+              <Box maxWidth="25rem">
+                <Text variant="headingSm" color="magenta">
+                  Conte o quanto você está satisfeito com nossos serviços
+                </Text>
+              </Box>
               <Text variant="headingSm">Marque de 1 à 5</Text>
-              <Rating size="large" />
+              <Rating
+                size="large"
+                sx={{
+                  fontSize: "3rem",
+                }}
+              />
             </Box>
           </BoxCentralizado>
           <Text variant="headingXs">Nome</Text>
