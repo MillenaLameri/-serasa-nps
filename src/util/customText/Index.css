@@ -1,0 +1,62 @@
+.text--variant-display {
+  font-family: "Roboto", sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.text--variant-headingL {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.75rem;
+  font-weight: 700;
+}
+
+.text--variant-headingM {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.text--variant-headingS {
+  font-size: 2.125rem;
+  font-weight: 700;
+}
+
+.text--variant-headingSm {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.text--variant-headingXs {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.text--variant-subheading {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.text--variant-bodym {
+  font-size: 1rem;
+}
+
+.text--color-darklow {
+  color: #8d93a1;
+}
+
+.text--color-darkmedium {
+  color: #646b7e;
+}
+
+.text--color-darkhigh {
+  color: #323953;
+}
+.text--color-magenta {
+  color: #ed0082;
+}
+.text--color-lightsolid {
+  color: #646b7e;
+}
+
+.text--color-lighthigh {
+  color: #ffffff;
+}
