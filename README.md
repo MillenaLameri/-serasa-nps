@@ -1,4 +1,4 @@
-# Serasa - nps 
+# Serasa - NPS :star: 
 
 Este projeto foi criado como um teste para a vaga de Front-end na empresa Serasa. Ele consiste em uma aplicação de criação de pesquisas de NPS (Net Promoter Score), utilizando React, TypeScript, Material UI e Json Server.
 
@@ -8,7 +8,7 @@ Este projeto foi criado como um teste para a vaga de Front-end na empresa Serasa
 
 
 
-## Instalação
+## Instalação 	:computer:
 
 Para instalar e executar a aplicação, siga as instruções abaixo:
 
@@ -32,7 +32,7 @@ Para instalar e executar a aplicação, siga as instruções abaixo:
 
 6. Abra o navegador e acesse o endereço http://localhost:3000 para visualizar a aplicação.
 
-### Uso
+### Uso :rocket:
 
 Para usar a aplicação, siga as instruções abaixo:
 
@@ -44,7 +44,7 @@ Para usar a aplicação, siga as instruções abaixo:
 
 4. Clique em "Enviar avaliação" para criar a pesquisa.
 
-### Contribuição
+### Contribuição :memo:
 
 Se você quiser contribuir para o projeto, siga as instruções abaixo:
 
@@ -65,6 +65,7 @@ Se você quiser contribuir para o projeto, siga as instruções abaixo:
 6. Abra uma solicitação de pull no GitHub.
  
 
-## Contato
+## Contato :envelope:
+
 Qualquer duvida, envie uma mensagem no meu [Linkedin](linkedin.com/in/millena-lameri-48b737187/)
 
