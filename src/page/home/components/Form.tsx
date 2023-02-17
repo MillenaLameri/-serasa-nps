@@ -8,8 +8,11 @@ import { Nps, NpsFormModelSchema, NPS_DEFAULT } from "../../../models/Nps";
 import { Formik } from "formik";
 import MensagemErro from "../../../util/menssageError/MensagemErro";
 import { useNpsService } from "../../../service/nps.service";
+import { useSnackbar } from "notistack";
 
 export const Form = () => {
+  const { enqueueSnackbar } = useSnackbar();
+
   const [initialStatus, setInitialStatus] = useState<Nps>(NPS_DEFAULT);
 
   const [loading, setLoading] = useState(false);
@@ -18,10 +21,20 @@ export const Form = () => {
 
   async function sendNps(values: Nps) {
     try {
-      console.log(values);
       await NpsFormModelSchema.validate(values);
       setLoading(true);
-      mockPostNps(values).finally(() => setLoading(false));
+      await mockPostNps(values)
+        .then((resp) =>
+          enqueueSnackbar("Obrigada por avaliar nossos serviços", {
+            variant: "success",
+          })
+        )
+        .catch((error: any) => {
+          enqueueSnackbar(error.response.data[0].message, { variant: "error" });
+        })
+        .finally(() => {
+          setLoading(false);
+        });
     } catch {}
   }
 
@@ -72,12 +85,12 @@ export const Form = () => {
                 onChange={formProps.handleChange}
               />
               <MensagemErro name="comment" />
-              <Box mt={6}>
+              <Box mt={4}>
                 <Button
+                  disabled={!formProps.values.name || !formProps.values.rating}
                   variant="contained"
                   fullWidth
                   type="submit"
-                  onClick={() => sendNps(formProps.values)}
                   sx={{
                     borderRadius: 10,
                     backgroundColor: Colors.magenta,
