@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+# Serasa - nps 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi criado como um teste para a vaga de Front-end na empresa Serasa. Ele consiste em uma aplicação de criação de pesquisas de NPS (Net Promoter Score), utilizando React, TypeScript, Material UI e Json Server.
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/50849546/219783103-28210824-34e1-48e2-8ed7-13efe6fb0217.png)
+![image](https://user-images.githubusercontent.com/50849546/219783238-4eb642a5-ee5b-4c03-ab73-08bc7c03fa20.png)
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instalação
 
-### `npm test`
+Para instalar e executar a aplicação, siga as instruções abaixo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone este repositório.
 
-### `npm run build`
+`git clone https://github.com/MillenaLameri/Serasa-nps.git`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navegue até o diretório raiz do projeto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`cd serasa-nps`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Instale as dependências:
 
-### `npm run eject`
+`yarn install`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. inicie o projeto:
+`yarn start`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Inicie o servidor:
+`yarn dev`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+6. Abra o navegador e acesse o endereço http://localhost:3000 para visualizar a aplicação.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Uso
 
-## Learn More
+Para usar a aplicação, siga as instruções abaixo:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Na tela inicial, selecione de 1 a 5 estrelas. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Digite o seu nome.
+
+3. Digite algum comentário 
+
+4. Clique em "Enviar avaliação" para criar a pesquisa.
+
+### Contribuição
+
+Se você quiser contribuir para o projeto, siga as instruções abaixo:
+
+1. Fork este repositório: 
+
+2. Clone seu fork:
+`git clone https://github.com/MillenaLameri/Serasa-nps.git `
+
+3. Crie uma nova branch para suas alterações:
+`git checkout -b minha-feature`
+
+4. Faça suas alterações e commit:
+ `git commit -m "Minha feature" `
+ 
+5. Envie suas alterações para o GitHub:
+ `git push origin minha-feature`
+ 
+6. Abra uma solicitação de pull no GitHub.
+ 
+
+## Contato
+Qualquer duvida, envie uma mensagem no meu [Linkedin](linkedin.com/in/millena-lameri-48b737187/)
+
