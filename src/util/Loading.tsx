@@ -1,21 +1,27 @@
-import { Box, CircularProgress } from "@mui/material";
+import { Backdrop, Box, CircularProgress } from "@mui/material";
+import { BoxCentralizado } from "./BoxCentralizado";
 import Text from "./customText/Text";
 
-export const Loading = () => {
+type Props = {
+  open: boolean;
+  close?: () => void;
+};
+
+export const Loading = ({ open, close }: Props) => {
   return (
-    <Box
+    <Backdrop
       sx={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column",
-        height: "calc(100vh - 240px) !important",
+        color: "#fff",
+        zIndex: (theme) => theme.zIndex.drawer + 1,
       }}
+      open={open}
     >
-      <Text variant="headingSm" color="lighthigh">
-        Aguarde estamos processando
-      </Text>
-      <CircularProgress size={100} color="secondary" />
-    </Box>
+      <Box flexDirection="row">
+        <Text variant="headingSm">Aguarde estamos processando</Text>
+        <BoxCentralizado>
+          <CircularProgress color="inherit" />
+        </BoxCentralizado>
+      </Box>
+    </Backdrop>
   );
 };
