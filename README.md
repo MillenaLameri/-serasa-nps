@@ -42,7 +42,7 @@ Para usar a aplicação, siga as instruções abaixo:
 
 3. Digite algum comentário 
 
-4. Clique em "Enviar avaliação" para criar a pesquisa.
+4. Clique em "Enviar avaliação".
 
 ### Contribuição :memo:
 
