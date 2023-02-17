@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Button, Rating, TextField } from "@mui/material";
 import Box from "@mui/material/Box";
 import { Colors } from "../../../util/colors";

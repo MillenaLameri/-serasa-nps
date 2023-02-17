@@ -17,9 +17,7 @@ export const NpsFormModelSchema: Yup.SchemaOf<Nps> = Yup.object().shape({
     .min(3, "Nome deve conter pelo menos 3 letras")
     .required("Campo obrigatório")
     .typeError("Campo obrigatório"),
-  comment: Yup.string()
-    .optional()
-    .min(3, "Comentário deve conter pelo menos 3 letras"),
+  comment: Yup.string().optional(),
   rating: Yup.number()
     .min(1, "Campo obrigatório")
     .required("Campo obrigatório"),
