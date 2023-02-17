@@ -1,6 +1,7 @@
 .App {
   background-color: #e63888;
   height: 100vh;
+  overflow-y: auto;
 }
 
 .App-logo {

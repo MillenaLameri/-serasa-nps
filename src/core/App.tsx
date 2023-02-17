@@ -1,6 +1,6 @@
 import { AppRoutes } from "../routes/AppRoutes";
-import "./../App.css";
 import { SnackbarProvider } from "notistack";
+import "./../App.css";
 
 export const App = () => {
   return (
