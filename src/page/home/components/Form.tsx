@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Rating, TextField, Typography } from "@mui/material";
+import { Button, Rating, TextField } from "@mui/material";
 import Box from "@mui/material/Box";
 import { Colors } from "../../../util/colors";
 import Text from "../../../util/customText/Text";
@@ -24,11 +24,11 @@ export const Form = () => {
       await NpsFormModelSchema.validate(values);
       setLoading(true);
       await mockPostNps(values)
-        .then((resp) =>
+        .then((resp) => {
           enqueueSnackbar("Obrigada por avaliar nossos serviços", {
             variant: "success",
-          })
-        )
+          });
+        })
         .catch((error: any) => {
           enqueueSnackbar(error.response.data[0].message, { variant: "error" });
         })

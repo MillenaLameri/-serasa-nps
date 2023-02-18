@@ -1,21 +1,8 @@
 import cn from "classnames";
 import { ReactNode } from "react";
+import { Colors, Variant, VariantsMapping } from "./models/Variant";
 
 import "./Index.css";
-
-type Variant =
-  | "display"
-  | "headingL"
-  | "headingM"
-  | "headingS"
-  | "headingSm"
-  | "headingXs"
-  | "subheading"
-  | "bodym";
-
-type VariantsMapping = {
-  [key in Variant]: keyof JSX.IntrinsicElements;
-};
 
 const variantsMapping: VariantsMapping = {
   display: "h1",
@@ -31,13 +18,7 @@ const variantsMapping: VariantsMapping = {
 type CustomTextProps = {
   variant: Variant;
   children: ReactNode;
-  color?:
-    | "darklow"
-    | "darkmedium"
-    | "darkhigh"
-    | "magenta"
-    | "lightsolid"
-    | "lighthigh";
+  color?: Colors;
   mt?: number;
   mb?: number;
   size?: string;
