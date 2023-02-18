@@ -32,6 +32,13 @@ magenta: Define a cor do texto como magenta.
 lightsolid: Define a cor do texto como branco.
 lighthigh: Define a cor do texto como branco gelo
 
+## Style:
+
+mt: Acrescenta margin-top ao component text.
+mb: Acrescenta margin-bottom ao component text.
+size: Define o tamanho do texto utilizando font-size.
+center: Centraliza o component text.
+
 # Entrega 3
 
 Já que eu não tenho acesso ao código do site da Serasa, nem tenho informações sobre a equipe de desenvolvimento, as necessidades do projeto ou os requisitos técnicos.
