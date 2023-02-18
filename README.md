@@ -1,6 +1,6 @@
 # Serasa - NPS :star: 
 
-Este projeto foi criado como um teste para a vaga de Front-end na empresa Serasa. Ele consiste em uma aplicação de criação de pesquisas de NPS (Net Promoter Score), utilizando React, TypeScript, Material UI e Json Server.
+Este projeto foi criado como um teste para a vaga de Front-end na empresa Serasa. Ele consiste em uma aplicação de criação de pesquisas de NPS (Net Promoter Score), utilizando React, TypeScript, Material UI, Formik, Yup e Json Server.
 
 ![image](https://user-images.githubusercontent.com/50849546/219783103-28210824-34e1-48e2-8ed7-13efe6fb0217.png)
 ![image](https://user-images.githubusercontent.com/50849546/219783238-4eb642a5-ee5b-4c03-ab73-08bc7c03fa20.png)
