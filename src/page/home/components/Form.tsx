@@ -54,7 +54,9 @@ export const Form = () => {
           return (
             <form onSubmit={handleSubmit} onChange={handleChange}>
               <Box alignItems="center" textAlign="center">
-                <Text variant="headingXs">Marque de 1 à 5</Text>
+                <Text mt={30} mb={20} center={true} variant="headingXs">
+                  Marque de 1 à 5
+                </Text>
                 <Rating
                   id="rating"
                   name="rating"
@@ -67,7 +69,9 @@ export const Form = () => {
                 />
                 <MensagemErro name="rating" />
               </Box>
-              <Text variant="headingXs">Nome</Text>
+              <Text mt={30} mb={20} variant="headingXs">
+                Nome
+              </Text>
               <TextField
                 id="name"
                 name="name"
@@ -76,7 +80,9 @@ export const Form = () => {
                 fullWidth
               />
               <MensagemErro name="name" />
-              <Text variant="headingXs">Comentário (Opcional)</Text>
+              <Text mt={30} mb={20} variant="headingXs">
+                Comentário (Opcional)
+              </Text>
               <TextField
                 fullWidth
                 id="comment"
@@ -85,7 +91,7 @@ export const Form = () => {
                 onChange={formProps.handleChange}
               />
               <MensagemErro name="comment" />
-              <Box mt={4}>
+              <Box mt={6} mb={2}>
                 <Button
                   disabled={!formProps.values.name || !formProps.values.rating}
                   variant="contained"
@@ -100,7 +106,7 @@ export const Form = () => {
                     },
                   }}
                 >
-                  <Text color="lighthigh" variant="subheading">
+                  <Text color="lightsolid" variant="subheading">
                     Enviar avaliação
                   </Text>
                 </Button>

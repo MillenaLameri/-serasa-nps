@@ -36,11 +36,22 @@ type CustomTextProps = {
     | "darkmedium"
     | "darkhigh"
     | "magenta"
-    | "lightsolid "
+    | "lightsolid"
     | "lighthigh";
+  mt?: number;
+  mb?: number;
+  size?: string;
+  center?: boolean;
 };
 
-const Text = ({ variant, color, children, ...props }: CustomTextProps) => {
+const Text = ({
+  variant,
+  color,
+  children,
+  size,
+  center,
+  ...props
+}: CustomTextProps) => {
   const Component = variant ? variantsMapping[variant] : "p";
 
   return (
@@ -49,6 +60,12 @@ const Text = ({ variant, color, children, ...props }: CustomTextProps) => {
         [`text--variant-${variant}`]: variant,
         [`text--color-${color}`]: color,
       })}
+      style={{
+        marginTop: props.mt,
+        marginBottom: props.mb,
+        fontSize: size,
+        textAlign: center ? "center" : "left",
+      }}
       {...props}
     >
       {children}
