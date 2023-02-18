@@ -2,13 +2,13 @@
 
 ## Componente de Texto
 
-Este é um componente de texto que pode ser usado em projetos da web para exibir blocos de texto formatados. O componente suporta formatação básica de texto como opções de tamanho de fonte e cor.
+Este é um componente de texto que pode ser usado em projetos da web react para exibir blocos de texto formatados. O componente suporta formatação básica de texto como opções de tamanho de fonte e cor.
 
 ## Como Usar
 
 Para usar o componente de texto em seu projeto, inclua o arquivo Text.tsx e Index.css em seu projeto. Em seguida, adicione a tag <Text > e importe `import Text from "..\Text.tsx" para seu arquivo.
 
-`<Text variant="headingSm" color="magenta">Este é um exemplo com o componente de texto.</Text>`
+`<Text variant="headingSm" color="magenta"> Este é um exemplo com o componente de texto. </Text>`
 
 Você pode usar as seguintes props para formatar o texto exibido pelo componente:
 
