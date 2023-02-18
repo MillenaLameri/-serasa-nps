@@ -35,17 +35,19 @@ lighthigh: Define a cor do texto como branco gelo
 # Entrega 3
 
 Já que eu não tenho acesso ao código do site da Serasa, nem tenho informações sobre a equipe de desenvolvimento, as necessidades do projeto ou os requisitos técnicos.
-Não consigo dar uma análise precisa do projeto, porém posso avaliar com base do meu conhecimento
+Não consigo dar uma análise precisa, porém posso avaliar com base do meu conhecimento
 
-Os recursos que notei no site serasa incluíam a capacidade de visualizar e gerenciar informações de crédito, realizar verificações de crédito e acessar relatórios de crédito.
+Os recursos que notei no site serasa incluíam a capacidade de visualizar e gerenciar informações de crédito, realizar verificações de débitos e conferir se tem dívidas negativadas.
 
-Dada a complexidade algumas técnicas podem ser úteis:
+Com base nisso, selecionei essas tecnolgias e arquitetura:
 
 React: como o site da Serasa é um aplicativo da web interativo, o React é uma boa opção para construir a interface do usuário (UI) e gerenciar o estado do aplicativo.
 
 TypeScript: o uso de TypeScript ajuda a manter seu código seguro e de fácil manutenção porque é uma linguagem tipada que permite detectar erros de compilação mais cedo.
 
 Material UI: É uma biblioteca de componentes de UI que pode ajudar a acelerar o desenvolvimento e a eficiência, pois fornece muitos componentes prontos para uso.
+
+Node.js: em situações em que há muitas requisições, já que, usando um loop de eventos, o Node. js interpreta, em uma única thread, as requisições de forma assíncrona em vez de sequenciais, e não permitindo bloqueios.
 
 Arquitetura em camadas: Uma arquitetura em camadas pode ser útil para separar as diferentes partes do aplicativo, como a interface do usuário, a lógica do aplicativo e o acesso aos dados. podendo tornar o código mais organizado, fácil de manter e escalável.
 
