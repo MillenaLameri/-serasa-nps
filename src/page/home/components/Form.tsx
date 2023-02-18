@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Rating, TextField } from "@mui/material";
+import { Button, Rating, TextField, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import { Colors } from "../../../util/colors";
 import Text from "../../../util/customText/Text";
@@ -54,7 +54,7 @@ export const Form = () => {
           return (
             <form onSubmit={handleSubmit} onChange={handleChange}>
               <Box alignItems="center" textAlign="center">
-                <Text variant="headingSm">Marque de 1 à 5</Text>
+                <Text variant="headingXs">Marque de 1 à 5</Text>
                 <Rating
                   id="rating"
                   name="rating"

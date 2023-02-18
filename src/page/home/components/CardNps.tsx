@@ -22,7 +22,7 @@ export const CardNps = () => {
             <Box alignItems="center" textAlign="center">
               <Banner />
               <Box maxWidth="25rem">
-                <Text variant="headingSm" color="magenta">
+                <Text variant="headingXs" color="magenta">
                   Conte o quanto você está satisfeito com nossos serviços
                 </Text>
               </Box>

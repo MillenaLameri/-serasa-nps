@@ -2,40 +2,53 @@
   font-family: "Roboto", sans-serif;
   font-size: 6rem;
   font-weight: 700;
+  margin: 10px;
 }
 
 .text--variant-headingL {
   font-family: "Roboto", sans-serif;
   font-size: 3.75rem;
   font-weight: 700;
+  margin: 10px;
 }
 
 .text--variant-headingM {
+  font-family: "Roboto", sans-serif;
   font-size: 3rem;
   font-weight: 700;
+  margin: 10px;
 }
 
 .text--variant-headingS {
+  font-family: "Roboto", sans-serif;
   font-size: 2.125rem;
   font-weight: 700;
+  margin: 10px;
 }
 
 .text--variant-headingSm {
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
+  margin: 10px;
 }
 
 .text--variant-headingXs {
+  font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
+  margin: 10px;
 }
 
 .text--variant-subheading {
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 700;
+  margin: 10px;
 }
 
 .text--variant-bodym {
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
 }
 
