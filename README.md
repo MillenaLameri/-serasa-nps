@@ -14,15 +14,15 @@ Para instalar e executar a aplicação, siga as instruções abaixo:
 
 1. Clone este repositório.
 
-`git clone https://github.com/MillenaLameri/Serasa-nps.git`
+- `git clone https://github.com/MillenaLameri/Serasa-nps.git`
 
 2. Navegue até o diretório raiz do projeto:
 
-`cd serasa-nps`
+- `cd serasa-nps`
 
 3. Instale as dependências:
 
-`yarn install`
+- `yarn install`
 
 4. inicie o projeto:
 `yarn start`
@@ -31,6 +31,8 @@ Para instalar e executar a aplicação, siga as instruções abaixo:
 `yarn dev`
 
 6. Abra o navegador e acesse o endereço http://localhost:3000 para visualizar a aplicação.
+
+6. Abra o navegador e acesse o endereço http://localhost:3001/Dados para visualizar o server.
 
 ### Uso :rocket:
 
