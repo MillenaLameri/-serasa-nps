@@ -41,7 +41,8 @@ Você pode usar as seguintes props para formatar o texto exibido pelo componente
 
 # Entrega 3
 
-Já que eu não tenho acesso ao código do site da Serasa, nem tenho informações sobre a equipe de desenvolvimento, as necessidades do projeto ou os requisitos técnicos.
+Já que eu não tenho acesso ao código do site, nem tenho informações das necessidades do projeto ou os requisitos técnicos.
+  
 Não consigo dar uma análise precisa, porém posso avaliar com base do meu conhecimento
 
 Os recursos que notei no site serasa incluíam a capacidade de visualizar e gerenciar informações de crédito, realizar verificações de débitos e conferir se tem dívidas negativadas.
@@ -62,7 +63,7 @@ Com base nisso, selecionei essas tecnolgias e arquitetura:
 
 - Trabalhei em projetos como Xerox, Equatorial, Medsenior, Folha Vitoria, AcessoJuris, Remoções.
 
-- Medsenior | AcessoJuris | Remoções | Folha Vitoria : Atuei tanto web quanto mobile. utilizando React/ReactNative, HTML/CSS, TypeScript, MaterialUi, SDKs aplicando metodologia Ágil ajudava meus colegas de equipe que possuiam bugs ou duvidas.
+- Medsenior | AcessoJuris | Remoções | Folha Vitoria : Atuei tanto web quanto mobile. utilizando React/ReactNative, HTML/CSS, TypeScript, MaterialUi, Styled-components SDKs aplicando metodologia Ágil ajudava meus colegas de equipe que possuiam bugs ou duvidas.
 
 - Equatorial | Xerox : Atuei tanto web como mobile, utilizando Angular e ionic também atuava como backend utilizando C#.
 
