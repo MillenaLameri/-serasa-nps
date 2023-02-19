@@ -32,6 +32,8 @@ Para instalar e executar a aplicação, siga as instruções abaixo:
 
 6. Abra o navegador e acesse o endereço http://localhost:3000 para visualizar a aplicação.
 
+6. Abra o navegador e acesse o endereço http://localhost:3001/Dados para visualizar o server.
+
 ### Uso :rocket:
 
 Para usar a aplicação, siga as instruções abaixo:
