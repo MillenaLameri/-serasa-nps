@@ -98,6 +98,7 @@ export const Form = () => {
                   fullWidth
                   type="submit"
                   sx={{
+                    minHeight: 60,
                     borderRadius: 10,
                     backgroundColor: Colors.magenta,
                     "&:hover": {
